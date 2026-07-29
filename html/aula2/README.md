@@ -2,7 +2,6 @@
 
 ## O que aprendi
 Aprendi a usar os títulos de diferentes tamanhos e também a separar textos com quebras e linhas horizontais.
-
 ## Tags que conheci
 - h2
 - h3
