@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Formulário de inscrição em um curso</title>
+</head>
+<body>
+<!-- Título principal -->
+<h1>Formulário de inscrição em um curso</h1>
+
+<!-- Início do formulário -->
+<form>
+<label for="nome">Nome:</label>
+<input type="text" id="nome" placeholder="Digite seu nome" required>
+
+<label for="email">E-mail:</label>
+<input type="email" id="email" placeholder="Digite seu e-mail" required>
+
+<!-- Escolha do curso -->
+<label for="curso">Escolha um curso:</label>
+<select id="curso">
+<option>HTML</option>
+<option>CSS</option>
+<option>JavaScript</option>
+</select>
+
+<!-- Escolha do turno -->
+<p>Escolha o turno:</p>
+<input type="radio" name="turno" value="manha">Manhã
+<input type="radio" name="turno" value="tarde">Tarde
+<input type="radio" name="turno" value="noite">Noite
+
+<!-- Interesses -->
+<p>Marque seus interesses:</p>
+<input type="checkbox" name="interesse" value="web">Web
+<input type="checkbox" name="interesse" value="programacao">Programação
+<input type="checkbox" name="interesse" value="design">Design
+
+<!-- Observações -->
+<p>Observações:</p>
+<textarea placeholder="Escreva aqui suas observações"></textarea>
+
+<!-- Botões -->
+<input type="submit" value="Enviar">
+<input type="reset" value="Limpar">
+</form>
+</body>
+</html>
