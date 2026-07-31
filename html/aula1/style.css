@@ -1,0 +1,23 @@
+body {
+    background-color: #f5f5dc;
+    font-family: Arial, sans-serif;
+}
+
+/* Estilo do título */
+h1 {
+    color: #800000;
+    font-size: 28px;
+}
+
+/* Estilo dos parágrafos */
+p {
+    color: #333333;
+    font-size: 16px;
+}
+
+/* Estilo da lista */
+ul {
+    background-color: #e6e6fa;
+    color: #000000;
+    font-size: 16px;
+}
