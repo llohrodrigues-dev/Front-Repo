@@ -1,0 +1,95 @@
+body {
+    background-color: #f7f7f7;
+    font-family: Arial, sans-serif;
+    color: #333333;
+    margin: 0;
+}
+
+/* Cabeçalho */
+header {
+    background-color: #4b0082;
+    color: white;
+    font-size: 24px;
+    padding: 10px;
+}
+
+/* Menu */
+nav {
+    background-color: #6a5acd;
+    padding: 10px;
+}
+
+nav a {
+    color: white;
+    font-size: 16px;
+}
+
+/* Position Static */
+.static {
+    position: static;
+    background-color: #e6f2ff;
+    color: #1f4d7a;
+    border: 2px solid #4b8bbe;
+    border-radius: 8px;
+    padding: 10px;
+    margin: 15px;
+}
+
+/* Position Relative */
+.relative {
+    position: relative;
+    top: 10px;
+    left: 20px;
+    background-color: #f0e68c;
+    color: #6b4f1d;
+    border: 2px solid #b8860b;
+    border-radius: 8px;
+    padding: 10px;
+    margin: 15px;
+}
+
+/* Position Absolute */
+.absolute {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background-color: #ffe4e1;
+    color: #8b0000;
+    border: 2px solid #ff69b4;
+    border-radius: 8px;
+    padding: 10px;
+    margin: 15px;
+}
+
+/* Position Fixed */
+.fixed {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    background-color: #d8f3dc;
+    color: #1b5e20;
+    border: 2px solid #2e7d32;
+    border-radius: 8px;
+    padding: 10px;
+}
+
+/* Position Sticky */
+.sticky {
+    position: sticky;
+    top: 0;
+    background-color: #f5e1ff;
+    color: #6a1b9a;
+    border: 2px solid #8e24aa;
+    border-radius: 8px;
+    padding: 10px;
+    margin: 15px;
+}
+
+/* Rodapé */
+footer {
+    background-color: #2f4f4f;
+    color: white;
+    font-size: 14px;
+    padding: 10px;
+    margin-top: 20px;
+}
