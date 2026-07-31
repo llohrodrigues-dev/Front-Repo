@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de média</title>
+</head>
+<body>
+    <main>
+        <h1>Calculadora de média</h1>
+        <form id="formulario-media">
+            <label for="primeira-nota">Primeira nota</label>
+            <input id="primeira-nota" type="number" min="0" max="10" step="0.1" required>
+
+            <label for="segunda-nota">Segunda nota</label>
+            <input id="segunda-nota" type="number" min="0" max="10" step="0.1" required>
+
+            <button type="submit">Calcular média</button>
+        </form>
+        <p id="resultado" aria-live="polite"></p>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
