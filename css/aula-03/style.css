@@ -1,0 +1,52 @@
+body {
+    background-color: #f8f8f8;
+    font-family: Arial, sans-serif;
+}
+
+/* Cor utilizando nome */
+.cor-nome {
+    background-color: blue;
+    color: white;
+    font-size: 16px;
+}
+
+/* Cor utilizando hexadecimal */
+.cor-hex {
+    background-color: #3498db;
+    color: white;
+    font-size: 16px;
+}
+
+/* Cor utilizando RGB */
+.cor-rgb {
+    background-color: rgb(255, 99, 71);
+    color: white;
+    font-size: 16px;
+}
+
+/* Cor utilizando RGBA */
+.cor-rgba {
+    background-color: rgba(0, 128, 0, 0.7);
+    color: white;
+    font-size: 16px;
+}
+
+/* Cor utilizando HSL */
+.cor-hsl {
+    background-color: hsl(300, 100%, 25%);
+    color: white;
+    font-size: 16px;
+}
+
+/* Estilo do título */
+h1 {
+    color: #333333;
+    font-size: 24px;
+}
+
+/* Estilo da lista */
+ul {
+    background-color: #e6e6fa;
+    color: #000000;
+    font-size: 16px;
+}
