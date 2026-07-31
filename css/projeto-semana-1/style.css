@@ -57,6 +57,13 @@ img {
     color: #f0e68c;
 }
 
+.menu a:focus,
+.botao:focus,
+.formulario button:focus {
+    outline: 3px solid #f0e68c;
+    outline-offset: 3px;
+}
+
 /* Banner */
 .hero {
     display: grid;
@@ -185,7 +192,8 @@ img {
 .formulario select:focus,
 .formulario textarea:focus {
     border-color: #2f4f4f;
-    outline: none;
+    outline: 3px solid #f0e68c;
+    outline-offset: 2px;
 }
 
 .informacoes {
