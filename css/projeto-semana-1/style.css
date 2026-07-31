@@ -1,0 +1,236 @@
+/* Reset simples */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f5f7fa;
+    color: #23374d;
+    line-height: 1.6;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+.container {
+    width: 90%;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+/* Cabeçalho */
+.cabecalho {
+    background-color: #2f4f4f;
+    color: white;
+    padding: 25px 0;
+}
+
+.cabecalho h1 {
+    margin: 0;
+    font-size: 28px;
+}
+
+.cabecalho p {
+    margin: 5px 0 0;
+    font-size: 16px;
+}
+
+/* Menu */
+.menu {
+    background-color: #5f9ea0;
+    padding: 12px 0;
+}
+
+.menu a {
+    color: white;
+    text-decoration: none;
+    margin-right: 15px;
+    font-size: 16px;
+    transition: color 0.3s ease;
+}
+
+.menu a:hover {
+    color: #f0e68c;
+}
+
+/* Banner */
+.hero {
+    display: grid;
+    grid-template-columns: 1.2fr 1fr;
+    gap: 25px;
+    align-items: center;
+    padding: 30px 0;
+}
+
+.hero article {
+    background-color: white;
+    padding: 25px;
+    border: 2px solid #dce7eb;
+    border-radius: 10px;
+}
+
+.hero h2 {
+    margin-top: 0;
+    font-size: 24px;
+}
+
+.hero img {
+    border-radius: 10px;
+    border: 2px solid #dce7eb;
+}
+
+.botao {
+    display: inline-block;
+    background-color: #2f4f4f;
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    border-radius: 6px;
+    margin-top: 10px;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.botao:hover {
+    background-color: #5f9ea0;
+    transform: translate(2px);
+}
+
+/* Sobre */
+.conteudo-duplo {
+    display: grid;
+    grid-template-columns: 1.2fr 1fr;
+    gap: 25px;
+    padding: 25px 0;
+    align-items: start;
+}
+
+.texto {
+    background-color: white;
+    padding: 20px;
+    border: 2px solid #dce7eb;
+    border-radius: 10px;
+}
+
+.texto h2 {
+    margin-top: 0;
+}
+
+.conteudo-duplo img {
+    border-radius: 10px;
+    border: 2px solid #dce7eb;
+}
+
+/* Serviços */
+.cards {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    padding: 10px 0 25px;
+}
+
+.card {
+    background-color: white;
+    padding: 20px;
+    border: 2px solid #dce7eb;
+    border-radius: 10px;
+}
+
+.servicos {
+    padding: 20px 0;
+}
+
+.imagem-completa {
+    border-radius: 10px;
+    border: 2px solid #dce7eb;
+    margin-bottom: 20px;
+}
+
+/* Contato */
+.formulario {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.formulario input,
+.formulario select,
+.formulario textarea {
+    padding: 10px;
+    border: 2px solid #5f9ea0;
+    border-radius: 6px;
+    font-size: 14px;
+}
+
+.formulario button {
+    background-color: #2f4f4f;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    padding: 10px 15px;
+    width: 180px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.formulario button:hover {
+    background-color: #5f9ea0;
+    transform: translate(2px);
+}
+
+.formulario input:focus,
+.formulario select:focus,
+.formulario textarea:focus {
+    border-color: #2f4f4f;
+    outline: none;
+}
+
+.informacoes {
+    background-color: #eef7f7;
+}
+
+/* Rodapé */
+.rodape {
+    background-color: #2f4f4f;
+    color: white;
+    padding: 20px 0;
+    margin-top: 20px;
+}
+
+.rodape p {
+    margin: 3px 0;
+}
+
+/* Responsividade */
+@media (max-width: 900px) {
+    .hero,
+    .conteudo-duplo {
+        grid-template-columns: 1fr;
+    }
+
+    .cards {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media (max-width: 600px) {
+    .cabecalho h1 {
+        font-size: 24px;
+    }
+
+    .menu a {
+        display: inline-block;
+        margin: 5px 10px 5px 0;
+    }
+
+    .cards {
+        grid-template-columns: 1fr;
+    }
+
+    .formulario button {
+        width: 100%;
+    }
+}
