@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Situação do estudante</title>
+</head>
+<body>
+    <main>
+        <h1>Consultar situação do estudante</h1>
+        <form id="formulario-nota">
+            <label for="nota">Média final, entre 0 e 10</label>
+            <input id="nota" name="nota" type="number" min="0" max="10" step="0.1" required>
+            <button type="submit">Consultar situação</button>
+        </form>
+        <p id="resultado" aria-live="polite"></p>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
