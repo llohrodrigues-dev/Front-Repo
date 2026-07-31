@@ -1,0 +1,78 @@
+body {
+    background-color: #f7f7f7;
+    font-family: Arial, sans-serif;
+    color: #333333;
+}
+
+/* Cabeçalho */
+header {
+    background-color: #4b0082;
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    padding: 10px;
+}
+
+/* Menu */
+nav {
+    background-color: #6a5acd;
+    padding: 10px;
+}
+
+nav a {
+    color: white;
+    font-size: 16px;
+}
+
+/* Exemplo de display block */
+.bloco {
+    background-color: #f0e68c;
+    color: #4b0082;
+    font-size: 16px;
+    border: 2px solid #8b4513;
+    padding: 10px;
+    margin: 5px;
+    display: block;
+}
+
+/* Exemplo de display inline */
+.linha {
+    background-color: #add8e6;
+    color: #00008b;
+    font-size: 16px;
+    border: 2px solid #1e90ff;
+    padding: 8px;
+    margin: 5px;
+    display: inline;
+}
+
+/* Exemplo de display inline-block */
+.caixa-inline {
+    background-color: #90ee90;
+    color: #006400;
+    font-size: 16px;
+    border: 2px solid #228b22;
+    padding: 10px;
+    margin: 5px;
+    display: inline-block;
+}
+
+/* Exemplo de display none */
+.sumido {
+    background-color: #ffb6c1;
+    color: #8b0000;
+    font-size: 16px;
+    border: 2px solid #ff69b4;
+    padding: 10px;
+    margin: 5px;
+    display: none;
+}
+
+/* Rodapé */
+footer {
+    background-color: #2f4f4f;
+    color: white;
+    font-size: 14px;
+    padding: 10px;
+    margin-top: 15px;
+}
