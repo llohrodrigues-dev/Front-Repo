@@ -1,0 +1,68 @@
+body {
+    background-color: #f7f7f7;
+    font-family: Arial, sans-serif;
+    color: #333333;
+}
+
+/* Estilo do título */
+h1 {
+    color: #8b0000;
+    font-size: 28px;
+    font-weight: bold;
+    font-family: Georgia, serif;
+}
+
+/* Estilo do subtítulo */
+h2 {
+    color: #2f4f4f;
+    font-size: 22px;
+    font-family: Georgia, serif;
+}
+
+/* Configuração dos parágrafos */
+p {
+    font-size: 16px;
+    line-height: 1.5;
+    font-family: Arial, sans-serif;
+}
+
+/* Estilo do texto em negrito */
+.texto-negrito {
+    font-weight: bold;
+    color: #000080;
+}
+
+/* Estilo do texto em itálico */
+.texto-italico {
+    font-style: italic;
+    color: #006400;
+}
+
+/* Estilo do texto centralizado */
+.texto-centralizado {
+    text-align: center;
+    font-family: Verdana, sans-serif;
+    font-size: 18px;
+}
+
+/* Estilo do texto justificado */
+.texto-justificado {
+    text-align: justify;
+    font-size: 16px;
+    color: #4b0082;
+}
+
+/* Estilo da citação */
+.citacao {
+    font-style: italic;
+    font-size: 18px;
+    color: #a0522d;
+    background-color: #f0e68c;
+}
+
+/* Estilo da lista */
+ul {
+    background-color: #e6e6fa;
+    color: #000000;
+    font-size: 16px;
+}
