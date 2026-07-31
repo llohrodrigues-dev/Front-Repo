@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minha lista de tarefas</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main class="aplicacao">
+        <header>
+            <p class="etapa">Projeto da Semana 3</p>
+            <h1>Minha lista de tarefas</h1>
+            <p>Adicione atividades de estudo e remova cada item quando não precisar mais dele.</p>
+        </header>
+
+        <section aria-labelledby="titulo-nova-tarefa">
+            <h2 id="titulo-nova-tarefa">Nova tarefa</h2>
+
+            <form id="formulario-tarefa" novalidate>
+                <label for="tarefa">Descrição da tarefa</label>
+                <div class="grupo-campo">
+                    <input
+                        id="tarefa"
+                        name="tarefa"
+                        type="text"
+                        maxlength="80"
+                        aria-describedby="ajuda-tarefa erro-tarefa"
+                    >
+                    <button type="submit">Adicionar</button>
+                </div>
+                <p id="ajuda-tarefa" class="ajuda">Use até 80 caracteres.</p>
+                <p id="erro-tarefa" class="erro" aria-live="polite"></p>
+            </form>
+        </section>
+
+        <section aria-labelledby="titulo-lista">
+            <div class="cabecalho-lista">
+                <h2 id="titulo-lista">Tarefas cadastradas</h2>
+                <p id="contador-tarefas" aria-live="polite">Nenhuma tarefa cadastrada.</p>
+            </div>
+
+            <p id="lista-vazia">Sua lista está vazia. Adicione a primeira tarefa.</p>
+            <ul id="lista-tarefas"></ul>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
