@@ -1,0 +1,65 @@
+body {
+    background-color: #f7f7f7;
+    font-family: Arial, sans-serif;
+    color: #333333;
+}
+
+/* Cabeçalho */
+header {
+    background-color: #1f4d3d;
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    border: 3px solid #0f2f24;
+}
+
+/* Menu */
+nav {
+    background-color: #2e6b4f;
+    color: white;
+    font-size: 18px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: #1f4d3d;
+}
+
+/* Seção Sobre */
+.sobre {
+    background-color: #eaf7f2;
+    color: #1f4d3d;
+    font-size: 16px;
+    border-width: 2px;
+    border-style: dashed;
+    border-color: #2e6b4f;
+}
+
+/* Seção Serviços */
+.servicos {
+    background-color: #fdf6e3;
+    color: #6b4f1d;
+    font-size: 16px;
+    border-width: 2px;
+    border-style: dotted;
+    border-color: #c08b2b;
+}
+
+/* Caixa de destaque */
+.destaque {
+    background-color: #f0e68c;
+    color: #4b3d2a;
+    font-size: 16px;
+    border-width: 3px;
+    border-style: solid;
+    border-color: #8b4513;
+    border-radius: 10px;
+}
+
+/* Rodapé */
+footer {
+    background-color: #d9f2e6;
+    color: #1f4d3d;
+    font-size: 14px;
+    border-top-width: 2px;
+    border-top-style: solid;
+    border-top-color: #2e6b4f;
+}
