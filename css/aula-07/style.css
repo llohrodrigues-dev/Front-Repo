@@ -1,0 +1,70 @@
+body {
+    background-color: #f5f5f5;
+    font-family: Arial, sans-serif;
+    color: #333333;
+}
+
+/* Cabeçalho */
+header {
+    background-color: #2f4f4f;
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    border: 2px solid #1f3d3d;
+    margin: 10px;
+}
+
+/* Menu */
+nav {
+    background-color: #4f6f6f;
+    color: white;
+    font-size: 18px;
+    border: 2px solid #3a5d5d;
+    margin: 10px;
+    padding: 10px;
+}
+
+/* Seção principal */
+.apresentacao {
+    background-color: #e6f2f2;
+    color: #2f4f4f;
+    font-size: 16px;
+    border: 2px solid #8fb7b7;
+    margin: 15px;
+    padding: 15px;
+}
+
+/* Caixas de conteúdo */
+.caixas {
+    background-color: #fdfdfd;
+    border: 2px solid #cccccc;
+    margin: 15px;
+    padding: 10px;
+}
+
+.caixa {
+    background-color: #f0f8ff;
+    color: #2f4f4f;
+    font-size: 16px;
+    border: 2px solid #a9cce3;
+    margin: 10px;
+    padding: 20px;
+}
+
+.destaque {
+    background-color: #fffacd;
+    color: #8b4513;
+    border: 2px solid #d2b48c;
+    margin: 20px;
+    padding: 25px;
+}
+
+/* Rodapé */
+footer {
+    background-color: #2f4f4f;
+    color: white;
+    font-size: 14px;
+    border-top: 2px solid #1f3d3d;
+    margin: 10px;
+    padding: 10px;
+}
