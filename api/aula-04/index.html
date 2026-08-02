@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tratando respostas e erros</title>
+</head>
+<body>
+    <main>
+        <h1>Tratando respostas e erros</h1>
+        <p>Digite um número de 1 a 10 para buscar um usuário existente. Outro número permite observar o tratamento do erro HTTP.</p>
+
+        <form id="formulario-busca">
+            <label for="identificador">Número do usuário</label>
+            <input id="identificador" name="identificador" type="number" min="1" required>
+            <button type="submit">Buscar</button>
+        </form>
+
+        <p id="mensagem" role="status" aria-live="polite">Nenhuma busca realizada.</p>
+        <section id="resultado" aria-labelledby="titulo-resultado" hidden>
+            <h2 id="titulo-resultado">Usuário encontrado</h2>
+            <p id="dados-usuario"></p>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
