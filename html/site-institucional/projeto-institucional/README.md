@@ -28,6 +28,10 @@ O projeto foi feito para representar uma empresa fictícia chamada Conecta Solu�
 - Acessibilidade básica.
 - Organização de arquivos.
 
+## Acessibilidade
+
+Usei títulos em ordem, imagens com texto alternativo, labels ligados aos campos e links claros. O menu também informa qual página está aberta usando o atributo `aria-current`.
+
 ## O que aprendi
 
 Eu aprendi a organizar melhor as páginas HTML e a pensar mais na estrutura antes de escrever o código. Também comecei a entender melhor como as tags funcionam juntas e como deixar o conteúdo mais claro para quem visita a página.

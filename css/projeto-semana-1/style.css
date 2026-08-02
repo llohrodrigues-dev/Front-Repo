@@ -41,7 +41,7 @@ img {
 
 /* Menu */
 .menu {
-    background-color: #5f9ea0;
+    background-color: #3f7375;
     padding: 12px 0;
 }
 
@@ -55,6 +55,12 @@ img {
 
 .menu a:hover {
     color: #f0e68c;
+    text-decoration: underline;
+}
+
+.menu a[aria-current="page"] {
+    font-weight: bold;
+    text-decoration: underline;
 }
 
 .menu a:focus,
@@ -240,5 +246,13 @@ img {
 
     .formulario button {
         width: 100%;
+    }
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .menu a,
+    .botao,
+    .formulario button {
+        transition: none;
     }
 }

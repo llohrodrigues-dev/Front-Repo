@@ -42,6 +42,10 @@ Criar uma cópia do projeto institucional da trilha de HTML com um visual mais o
 
 A página foi organizada para funcionar bem em desktop, notebook, tablet e celular. Os elementos mudam de posição ou passam a ocupar mais espaço quando a tela fica menor.
 
+## Acessibilidade
+
+Mantive textos alternativos nas imagens, labels no formulário, foco visível, contraste legível e indicação da página atual no menu. Também retirei as transições quando o navegador informa que a pessoa prefere menos movimento.
+
 ## O que aprendi durante a construção
 
 Aprendi que, com organização e prática, dá para transformar um site simples em algo mais agradável. Também percebi que a responsividade é muito importante para deixar a navegação mais fácil em telas diferentes.
