@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Renderizando uma lista</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <h1>Renderizando uma lista</h1>
+        <p>Nesta prática, vários usuários serão transformados em cartões.</p>
+
+        <button id="botao-carregar" type="button">Carregar usuários</button>
+        <p id="mensagem" role="status" aria-live="polite">A lista ainda não foi carregada.</p>
+
+        <section aria-labelledby="titulo-lista">
+            <h2 id="titulo-lista">Usuários</h2>
+            <ul id="lista-usuarios"></ul>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>

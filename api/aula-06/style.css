@@ -1,0 +1,51 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 24px;
+    background-color: #f4f7fb;
+    color: #243447;
+    font-family: Arial, sans-serif;
+    line-height: 1.5;
+}
+
+main {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+button {
+    padding: 10px 16px;
+    border: 0;
+    border-radius: 5px;
+    background-color: #28527a;
+    color: white;
+    font: inherit;
+    cursor: pointer;
+}
+
+button:focus {
+    outline: 3px solid #f2b705;
+    outline-offset: 3px;
+}
+
+#lista-usuarios {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 16px;
+    padding: 0;
+    list-style: none;
+}
+
+.cartao {
+    padding: 18px;
+    border: 1px solid #b8c5d1;
+    border-radius: 8px;
+    background-color: white;
+}
+
+.cartao h3 {
+    margin-top: 0;
+}
