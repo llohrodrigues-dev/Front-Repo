@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buscando com parâmetros</title>
+</head>
+<body>
+    <main>
+        <h1>Buscando com parâmetros</h1>
+        <p>Informe um número de usuário. Os usuários de 1 a 10 possuem publicações.</p>
+
+        <form id="formulario-busca">
+            <label for="usuario">Número do usuário</label>
+            <input id="usuario" name="usuario" type="number" min="1" max="20" required>
+            <button type="submit">Buscar publicações</button>
+        </form>
+
+        <p id="mensagem" role="status" aria-live="polite">Faça uma busca para ver os resultados.</p>
+
+        <section aria-labelledby="titulo-publicacoes">
+            <h2 id="titulo-publicacoes">Publicações encontradas</h2>
+            <ul id="lista-publicacoes"></ul>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
