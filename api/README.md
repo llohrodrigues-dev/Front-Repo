@@ -14,7 +14,7 @@ Nesta etapa comecei a buscar dados externos com JavaScript. As aulas avançam ao
 
 ## Entrega da semana
 
-O projeto final será uma busca de livros utilizando a API pública da Open Library. A interface deverá informar carregamento, sucesso, resultado vazio e erro.
+O projeto final está em `projeto-api/`. Ele permite buscar livros pela API pública da Open Library e informa os estados de carregamento, sucesso, resultado vazio e erro.
 
 ## Materiais de apoio
 

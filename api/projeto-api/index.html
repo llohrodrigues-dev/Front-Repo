@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Busca de livros</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main class="aplicacao">
+        <header>
+            <p class="etapa">Projeto da Semana 4</p>
+            <h1>Busca de livros</h1>
+            <p>Pesquise um título e consulte livros disponíveis no catálogo da Open Library.</p>
+        </header>
+
+        <section aria-labelledby="titulo-busca">
+            <h2 id="titulo-busca">Pesquisar no catálogo</h2>
+
+            <form id="formulario-busca" novalidate>
+                <label for="termo-busca">Título do livro</label>
+                <div class="grupo-busca">
+                    <input
+                        id="termo-busca"
+                        name="termo-busca"
+                        type="search"
+                        minlength="2"
+                        maxlength="80"
+                        autocomplete="off"
+                        aria-describedby="ajuda-busca erro-busca"
+                    >
+                    <button type="submit">Buscar</button>
+                </div>
+                <p id="ajuda-busca" class="ajuda">Digite pelo menos dois caracteres.</p>
+                <p id="erro-busca" class="erro" aria-live="polite"></p>
+            </form>
+        </section>
+
+        <p id="mensagem-estado" class="mensagem-estado" role="status" aria-live="polite" aria-atomic="true">
+            Digite um título para iniciar a busca.
+        </p>
+
+        <section id="area-resultados" aria-labelledby="titulo-resultados" hidden>
+            <h2 id="titulo-resultados">Livros encontrados</h2>
+            <ul id="lista-livros"></ul>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>

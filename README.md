@@ -7,12 +7,14 @@ Este repositório registra minha evolução nos estudos de desenvolvimento Front
 - `html/`: fundamentos de HTML semântico, formulários, mídia, acessibilidade e projeto institucional;
 - `css/`: estilos, seletores, box model, Flexbox, Grid, responsividade e versão estilizada do projeto institucional;
 - `javascript/`: fundamentos da linguagem, DOM, eventos, formulários e projeto de lista dinâmica.
+- `api/`: JSON, Fetch API, Promises, tratamento de erros, `async`, `await` e projeto de busca de livros.
 
 ## Projetos
 
 - `html/site-institucional/projeto-institucional/`: primeira versão do site, criada somente com HTML;
 - `css/projeto-semana-1/`: evolução responsiva e estilizada do site institucional;
 - `javascript/projeto-js-dom/`: lista de tarefas dinâmica desenvolvida ao final da Semana 3.
+- `api/projeto-api/`: busca de livros criada ao final da Semana 4 com a API pública da Open Library.
 
 ## Como visualizar
 
@@ -20,4 +22,4 @@ Abra o arquivo HTML da aula ou do projeto desejado no navegador. Cada pasta poss
 
 ## Próximos passos
 
-O próximo assunto da trilha será consumo de APIs. Ele será iniciado em uma pasta própria, sem alterar os projetos anteriores.
+O próximo assunto da trilha será React. Ele será iniciado em uma pasta própria, mantendo as entregas anteriores como registro da evolução.
