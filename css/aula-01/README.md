@@ -1,20 +1,24 @@
-# Aula 01 - Estrutura básica do HTML5
+# Aula 01 - Primeiros passos com CSS
 
 ## O que aprendi
-Eu aprendi a montar a estrutura principal de uma página HTML e entendi que tudo começa com as tags básicas.
 
-## Tags que conheci
-- html
-- head
-- body
-- h1
-- p
+Nesta aula comecei a aplicar estilos em uma página HTML. Comparei as formas inline, interna e externa de escrever CSS.
+
+## Conceitos praticados
+
+- CSS inline no atributo `style`;
+- CSS interno dentro da tag `style`;
+- CSS externo em um arquivo separado;
+- propriedades de cor, fonte e tamanho do texto.
 
 ## Minhas anotações
-Hoje foi o primeiro contato e eu achei legal ver a página aparecendo no navegador.
+
+O CSS externo deixou o HTML mais organizado e parece ser a melhor opção quando vários elementos precisam compartilhar estilos.
 
 ## Dificuldades
-Eu ainda fico confuso com a ordem das tags, mas estou começando a entender melhor.
+
+No começo fiquei confuso porque o mesmo título recebia uma cor no CSS interno e outra no arquivo externo. A ordem dos estilos pode mudar qual regra aparece na página.
 
 ## Próximo passo
-Quero praticar mais para memorizar a estrutura.
+
+Praticar seletores, classes e identificadores.
