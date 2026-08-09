@@ -1,0 +1,19 @@
+.painel { width: min(100%, 760px); padding: 36px; border-radius: 16px; background: #fff; box-shadow: 0 12px 32px rgba(30, 41, 59, 0.12); }
+.etapa { margin-bottom: 0; color: #285b8f; font-weight: 700; }
+h1 { margin: 6px 0 10px; color: #172033; }
+.formulario { margin-top: 32px; }
+.formulario label { display: block; margin-bottom: 8px; font-weight: 700; }
+.grupo-campo { display: flex; gap: 10px; }
+.grupo-campo input { flex: 1; min-width: 0; padding: 12px; border: 2px solid #94a3b8; border-radius: 8px; font: inherit; }
+button { padding: 11px 16px; border: 0; border-radius: 8px; background: #285b8f; color: #fff; font: inherit; font-weight: 700; cursor: pointer; }
+button:hover { background: #1d456d; }
+button:focus-visible, input:focus-visible { outline: 3px solid #f2b705; outline-offset: 3px; }
+.mensagem { min-height: 24px; color: #38516b; }
+.resumo { display: flex; align-items: center; justify-content: space-between; gap: 16px; }
+.lista { display: grid; gap: 10px; padding: 0; list-style: none; }
+.lista li { display: flex; align-items: center; justify-content: space-between; gap: 12px; padding: 14px; border: 1px solid #cbd5e1; border-radius: 8px; }
+.lista label { display: flex; align-items: center; gap: 10px; }
+.concluida span { color: #64748b; text-decoration: line-through; }
+.remover { background: #a12b36; }
+.remover:hover { background: #7f2029; }
+@media (max-width: 560px) { .painel { padding: 24px 18px; } .grupo-campo, .lista li { align-items: stretch; flex-direction: column; } }
