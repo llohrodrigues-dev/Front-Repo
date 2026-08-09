@@ -1,4 +1,7 @@
 import { useState } from 'react'
+import Cabecalho from './components/Cabecalho.jsx'
+import FormularioTarefa from './components/FormularioTarefa.jsx'
+import ListaTarefas from './components/ListaTarefas.jsx'
 import './App.css'
 
 function App() {
@@ -32,28 +35,14 @@ function App() {
 
   return (
     <main className="painel">
-      <header><p className="etapa">Semana 5 - React</p><h1>Meu painel de estudos</h1><p>Uma lista simples para praticar componentes, eventos e estado local.</p></header>
-      <form className="formulario" onSubmit={adicionarTarefa} noValidate>
-        <label htmlFor="nova-tarefa">Nova tarefa</label>
-        <div className="grupo-campo">
-          <input id="nova-tarefa" value={novaTarefa} onChange={(evento) => setNovaTarefa(evento.target.value)} maxLength="80" />
-          <button type="submit">Adicionar</button>
-        </div>
-      </form>
+      <Cabecalho />
+      <FormularioTarefa
+        novaTarefa={novaTarefa}
+        aoAlterar={setNovaTarefa}
+        aoEnviar={adicionarTarefa}
+      />
       <p className="mensagem" role="status" aria-live="polite">{mensagem}</p>
-      <section aria-labelledby="titulo-tarefas">
-        <div className="resumo"><h2 id="titulo-tarefas">Tarefas</h2><span>{tarefas.length} cadastradas</span></div>
-        {tarefas.length === 0 ? <p>Nenhuma tarefa cadastrada.</p> : (
-          <ul className="lista">
-            {tarefas.map((tarefa) => (
-              <li key={tarefa.id} className={tarefa.concluida ? 'concluida' : ''}>
-                <label><input type="checkbox" checked={tarefa.concluida} onChange={() => alternarTarefa(tarefa.id)} /><span>{tarefa.descricao}</span></label>
-                <button type="button" className="remover" onClick={() => removerTarefa(tarefa.id)}>Remover</button>
-              </li>
-            ))}
-          </ul>
-        )}
-      </section>
+      <ListaTarefas tarefas={tarefas} aoAlternar={alternarTarefa} aoRemover={removerTarefa} />
     </main>
   )
 }
