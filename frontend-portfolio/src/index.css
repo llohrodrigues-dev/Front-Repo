@@ -1,0 +1,4 @@
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+body { margin: 0; min-width: 320px; background: #f6f2e9; color: #20231f; font-family: Arial, sans-serif; line-height: 1.6; }
+a { color: inherit; }

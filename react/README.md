@@ -1,16 +1,12 @@
 # Semana 5 - React: Fundamentos
 
-Nesta etapa vou aprender a criar interfaces com componentes React. A ideia é continuar usando HTML, CSS e JavaScript, mas agora separando a interface em partes menores e entendendo como o React atualiza a página.
+Nesta etapa aprendi a criar interfaces com componentes React. Continuei utilizando HTML, CSS e JavaScript, mas passei a separar a interface em partes menores e a guardar dados que mudam no estado da aplicação.
 
-## Configuração escolhida
+## Conteúdos praticados
 
-Os projetos serão criados com React, JavaScript e Vite. Não vou utilizar TypeScript, roteamento, bibliotecas de componentes ou gerenciamento global de estado nesta etapa.
-
-## Sequência planejada
-
-1. Primeiro componente e JSX;
+1. primeiro componente e JSX;
 2. composição de componentes;
-3. importação e exportação de componentes;
+3. importação e exportação;
 4. dados dentro do JSX;
 5. propriedades;
 6. eventos;
@@ -18,14 +14,19 @@ Os projetos serão criados com React, JavaScript e Vite. Não vou utilizar TypeS
 8. renderização condicional;
 9. listas e chaves;
 10. formulários controlados;
-11. exercício de revisão com componentes e estado;
-12. projeto final `react-basico`.
+11. revisão com componentes e estado;
+12. entrega final `react-basico`.
 
-Cada aula será criada e revisada antes da próxima. A sequência poderá receber pequenos ajustes se um conceito precisar de mais prática.
+## Estrutura
 
-## Entrega da semana
+- `aula-01/`: primeiro contato com componentes e JSX;
+- `react-basico/`: aplicação que reúne os demais fundamentos da semana.
 
-A entrega ficará em `react/react-basico` e será uma aplicação simples com componentes, propriedades, eventos e estado local.
+Os conceitos seguintes foram reunidos no projeto final em vez de gerar várias aplicações quase iguais. O histórico do projeto mostra a primeira versão e a refatoração realizada na Semana 6.
+
+## Entrega
+
+O projeto [react-basico](react-basico/) é um painel de estudos que permite adicionar, concluir e remover tarefas.
 
 ## Referências
 

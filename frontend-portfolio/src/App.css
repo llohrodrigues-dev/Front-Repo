@@ -1,0 +1,32 @@
+:root { --verde: #1f5b49; --laranja: #d96c35; --claro: #fffdf8; --borda: #c8c1b4; }
+.cabecalho { position: sticky; top: 0; z-index: 2; display: flex; align-items: center; justify-content: space-between; padding: 18px max(24px, calc((100% - 1120px) / 2)); border-bottom: 1px solid var(--borda); background: rgba(246, 242, 233, .95); }
+.marca { display: grid; width: 42px; height: 42px; place-items: center; border-radius: 50%; background: var(--verde); color: #fff; font-weight: 800; text-decoration: none; }
+nav { display: flex; gap: 24px; } nav a { font-weight: 700; text-decoration: none; }
+main { width: min(1120px, calc(100% - 48px)); margin: 0 auto; }
+.inicio { min-height: 78vh; display: flex; flex-direction: column; align-items: flex-start; justify-content: center; padding: 72px 0; }
+.destaque, .rotulo { margin: 0 0 10px; color: var(--laranja); font-size: .85rem; font-weight: 800; letter-spacing: .12em; text-transform: uppercase; }
+h1, h2, h3 { font-family: Georgia, serif; line-height: 1.12; }
+h1 { max-width: 900px; margin: 0; font-size: clamp(2.8rem, 7vw, 6.5rem); }
+.introducao { max-width: 620px; margin: 24px 0; font-size: 1.15rem; }
+.botao { display: inline-block; padding: 13px 20px; border-radius: 6px; background: var(--verde); color: #fff; font-weight: 700; text-decoration: none; }
+.secao { padding: 88px 0; border-top: 1px solid var(--borda); }
+.secao h2 { max-width: 700px; margin: 0 0 32px; font-size: clamp(2rem, 4vw, 3.5rem); }
+.sobre { display: grid; grid-template-columns: 1fr 1fr; gap: 64px; }
+.grade-projetos { display: grid; grid-template-columns: repeat(2, 1fr); gap: 20px; }
+.cartao-projeto { display: flex; flex-direction: column; min-height: 330px; padding: 28px; border: 1px solid var(--borda); border-radius: 12px; background: var(--claro); }
+.cartao-projeto .numero { color: var(--laranja); font-weight: 800; }
+.cartao-projeto h3 { margin: 12px 0; font-size: 1.7rem; }
+.cartao-projeto ul { display: flex; flex-wrap: wrap; gap: 8px; padding: 0; list-style: none; }
+.cartao-projeto li, .lista-repositorios span { padding: 4px 9px; border-radius: 20px; background: #e5eee9; color: var(--verde); font-size: .85rem; font-weight: 700; }
+.cartao-projeto a { margin-top: auto; color: var(--verde); font-weight: 800; }
+.apoio { margin-top: -20px; }
+.lista-repositorios { display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; padding: 0; list-style: none; }
+.lista-repositorios li { display: flex; flex-direction: column; min-height: 230px; padding: 22px; border-left: 5px solid var(--laranja); background: var(--claro); }
+.lista-repositorios h3 { margin: 0; overflow-wrap: anywhere; }
+.lista-repositorios span { align-self: flex-start; }
+.lista-repositorios a { margin-top: auto; color: var(--verde); font-weight: 800; }
+a:focus-visible { outline: 3px solid #f2b705; outline-offset: 4px; }
+footer { display: flex; justify-content: space-between; gap: 20px; padding: 28px max(24px, calc((100% - 1120px) / 2)); background: #20231f; color: #fff; }
+@media (max-width: 760px) { nav { gap: 12px; font-size: .9rem; } .sobre, .grade-projetos, .lista-repositorios { grid-template-columns: 1fr; } .sobre { gap: 12px; } .secao { padding: 64px 0; } }
+@media (max-width: 480px) { .cabecalho { align-items: flex-start; } nav { flex-direction: column; gap: 4px; } main { width: min(100% - 28px, 1120px); } footer { flex-direction: column; } }
+@media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }

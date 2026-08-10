@@ -1,26 +1,70 @@
 # Estudos de Front-End
 
-Este repositório registra minha evolução nos estudos de desenvolvimento Front-End. Os conteúdos estão separados por tecnologia e por aula para facilitar a consulta e mostrar a ordem do aprendizado.
+Este repositório registra minha evolução durante a Trilha Front-End Júnior. Os conteúdos começam pelos fundamentos e avançam até aplicações com React e consumo de APIs.
 
 ## Etapas concluídas
 
-- `html/`: fundamentos de HTML semântico, formulários, mídia, acessibilidade e projeto institucional;
-- `css/`: estilos, seletores, box model, Flexbox, Grid, responsividade e versão estilizada do projeto institucional;
-- `javascript/`: fundamentos da linguagem, DOM, eventos, formulários e projeto de lista dinâmica;
-- `api/`: JSON, Fetch API, Promises, tratamento de erros, `async`, `await` e projeto de busca de livros;
-- `react/`: fundamentos de React em andamento, começando por componentes e JSX.
+- [Semana 1 - HTML semântico](html/)
+- [Semana 2 - CSS e responsividade](css/)
+- [Semana 3 - JavaScript, fundamentos e DOM](javascript/)
+- [Semana 4 - Consumo de APIs](api/)
+- [Semana 5 - React: fundamentos](react/)
+- [Semana 6 - Organização e boas práticas](react/react-basico/REFATORACAO.md)
+- [Semana 7 - Projeto integrado](projeto-integrado/)
+- [Semana 8 - Projeto final de portfólio](frontend-portfolio/)
 
 ## Projetos
 
-- `html/site-institucional/projeto-institucional/`: primeira versão do site, criada somente com HTML;
-- `css/projeto-semana-1/`: evolução responsiva e estilizada do site institucional;
-- `javascript/projeto-js-dom/`: lista de tarefas dinâmica desenvolvida ao final da Semana 3;
-- `api/projeto-api/`: busca de livros criada ao final da Semana 4 com a API pública da Open Library.
+### Site institucional
 
-## Como visualizar
+Começou como uma estrutura em HTML e recebeu estilos e responsividade na etapa de CSS.
 
-Nas etapas de HTML, CSS, JavaScript e APIs, abra o arquivo HTML da aula ou do projeto desejado no navegador. Nas aulas de React, entre na pasta da aula, execute `npm install` e depois `npm run dev`. Cada pasta possui um README com os conceitos praticados e minhas anotações sobre o conteúdo.
+- [Versão HTML](html/site-institucional/projeto-institucional/)
+- [Versão com CSS](css/projeto-semana-1/)
 
-## Próximos passos
+### Minha lista de tarefas
 
-A Semana 5 de React foi iniciada em uma pasta própria. As próximas aulas vão avançar por componentes, propriedades, eventos e estado local.
+Aplicação criada com JavaScript para praticar formulários, eventos e manipulação do DOM.
+
+- [Abrir projeto JS DOM](javascript/projeto-js-dom/)
+
+### Busca de livros
+
+Primeiro projeto com consumo de API. Utiliza a Open Library para pesquisar livros e trata carregamento, resultado vazio e erro.
+
+- [Abrir projeto de API](api/projeto-api/)
+
+### Painel de estudos
+
+Entrega de fundamentos do React com componentes, propriedades, eventos, estado local e formulário controlado.
+
+- [Abrir React básico](react/react-basico/)
+
+### Estante aberta
+
+Projeto integrado que reúne React, consumo de API, responsividade e acessibilidade.
+
+- [Abrir projeto integrado](projeto-integrado/)
+
+### Portfólio Front-End
+
+Projeto final da trilha. Apresenta os projetos e carrega repositórios públicos usando a API do GitHub.
+
+- [Abrir frontend-portfolio](frontend-portfolio/)
+
+## Como executar
+
+Os projetos de HTML, CSS, JavaScript e API podem ser abertos pelo arquivo `index.html`. Nos projetos React, entre na pasta desejada e execute:
+
+```bash
+npm install
+npm run dev
+```
+
+## Tecnologias praticadas
+
+HTML, CSS, JavaScript, Fetch API, React e Vite.
+
+## Status
+
+As oito semanas planejadas foram concluídas. Cada pasta possui seu próprio README com objetivos, funcionalidades, aprendizados e limitações.
